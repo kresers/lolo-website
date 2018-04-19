@@ -1,0 +1,34 @@
+
+<header id="tg-header" class="tg-header tg-haslayout" xmlns="">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <strong class="tg-logo"><a href="index.html"><img src="../../assets/images/logo.png" alt="company logo here"></a></strong>
+                <div class="tg-navigationarea">
+                    <nav id="tg-nav" class="tg-nav">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+                            <ul>
+                                <li id="accueil"><a [routerLink]="['/accueil']" routerLinkActive="active"><span class="fa fa-home"></span> Accueil</a></li>
+                                <li id="evenement"><a [routerLink]="['/evenements']" routerLinkActive="active"><span class="fa fa-calendar"></span> Evènements</a></li>
+                                <li><a [routerLink]="['servicePresta']" routerLinkActive="active"><span class="fa fa-black-tie"></span> Services / Prestations</a></li>
+                                <li><a href="venues.html"><span class="fa fa-handshake-o"></span> Demande de devis</a></li>
+                                <li><a [routerLink]="['/livre-or']"><span class="fa fa-book"></span> Livre d'or</a></li>
+                                <li><a [routerLink]="['/contact']" routerLinkActive="active"><span class="fa fa-comments"></span> Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+

@@ -1,0 +1,25 @@
+#tg-navigation span
+{
+    font-size: 17px;
+}
+
+#tg-header .container
+{
+    min-width: 1250px;
+}
+
+.tg-posttitle h3
+{
+    font-size: 80%;
+}
+
+section
+{
+    margin-top: 34px;
+}
+
+.slick-slide
+{
+    padding: 21px;
+}
+
